@@ -28,7 +28,7 @@ def add_bg_from_local(image_file):
     )
 
 # ✅ Provide the full path to the image on your Desktop
-image_file = r"C:\Users\HP\Desktop\Disease_prediction\medical_background.jpg"
+image_file = "medical_background.jpg"
 
 add_bg_from_local(image_file)
 
@@ -43,7 +43,7 @@ st.markdown('---')
 @st.cache_data
 
 def load_data():
-    data = pd.read_csv(r"C:\Users\HP\Desktop\Disease_prediction\diabetes.csv")
+q    data = pd.read_csv("diabetes.csv")
     return data
 
 data = load_data()
