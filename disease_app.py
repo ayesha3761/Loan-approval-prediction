@@ -44,7 +44,7 @@ st.markdown('---')
 
 def load_data():
    data = pd.read_csv("diabetes.csv")
-    return data
+   return data
 
 data = load_data()
 
