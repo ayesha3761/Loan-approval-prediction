@@ -43,7 +43,7 @@ st.markdown('---')
 @st.cache_data
 
 def load_data():
-q    data = pd.read_csv("diabetes.csv")
+   data = pd.read_csv("diabetes.csv")
     return data
 
 data = load_data()
